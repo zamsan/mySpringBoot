@@ -1,9 +1,9 @@
-package com.zamsan.myspringboot.controller;
+package com.zamsan.myspringboot.web;
 
 import com.zamsan.myspringboot.service.PostsService;
-import com.zamsan.myspringboot.controller.dto.PostResponseDto;
-import com.zamsan.myspringboot.controller.dto.PostsSaveRequestDto;
-import com.zamsan.myspringboot.controller.dto.PostsUpdateRequestDto;
+import com.zamsan.myspringboot.web.dto.PostResponseDto;
+import com.zamsan.myspringboot.web.dto.PostsSaveRequestDto;
+import com.zamsan.myspringboot.web.dto.PostsUpdateRequestDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

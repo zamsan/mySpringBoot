@@ -1,9 +1,9 @@
-package com.zamsan.myspringboot.controller;
+package com.zamsan.myspringboot.web;
 
 import com.zamsan.myspringboot.domain.posts.Posts;
 import com.zamsan.myspringboot.domain.posts.PostsRepository;
-import com.zamsan.myspringboot.controller.dto.PostsSaveRequestDto;
-import com.zamsan.myspringboot.controller.dto.PostsUpdateRequestDto;
+import com.zamsan.myspringboot.web.dto.PostsSaveRequestDto;
+import com.zamsan.myspringboot.web.dto.PostsUpdateRequestDto;
 import org.junit.After;
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,4 +1,4 @@
-package com.zamsan.myspringboot.controller.dto;
+package com.zamsan.myspringboot.web.dto;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

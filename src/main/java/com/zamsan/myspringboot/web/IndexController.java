@@ -1,7 +1,8 @@
-package com.zamsan.myspringboot.controller;
+package com.zamsan.myspringboot.web;
 
+import com.zamsan.myspringboot.config.auth.LoginUser;
 import com.zamsan.myspringboot.config.auth.dto.SessionUser;
-import com.zamsan.myspringboot.controller.dto.PostResponseDto;
+import com.zamsan.myspringboot.web.dto.PostResponseDto;
 import com.zamsan.myspringboot.service.PostsService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
@@ -19,11 +20,10 @@ public class IndexController {
     private final HttpSession httpSession;
 
     @GetMapping("/")
-    public String index(Model model){
+    public String index(Model model,@LoginUser SessionUser user){
         model.addAttribute("posts", postsService.findAllDesc());
-        SessionUser sessionUser = (SessionUser) httpSession.getAttribute("user");
-        if(sessionUser!= null){
-            model.addAttribute("name",sessionUser.getName());
+        if(user!= null){
+            model.addAttribute("name",user.getName());
         }
         return "index";
     }

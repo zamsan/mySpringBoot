@@ -1,11 +1,11 @@
 package com.zamsan.myspringboot.service;
 
-import com.zamsan.myspringboot.controller.dto.PostListResponseDto;
+import com.zamsan.myspringboot.web.dto.PostListResponseDto;
 import com.zamsan.myspringboot.domain.posts.Posts;
 import com.zamsan.myspringboot.domain.posts.PostsRepository;
-import com.zamsan.myspringboot.controller.dto.PostResponseDto;
-import com.zamsan.myspringboot.controller.dto.PostsSaveRequestDto;
-import com.zamsan.myspringboot.controller.dto.PostsUpdateRequestDto;
+import com.zamsan.myspringboot.web.dto.PostResponseDto;
+import com.zamsan.myspringboot.web.dto.PostsSaveRequestDto;
+import com.zamsan.myspringboot.web.dto.PostsUpdateRequestDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

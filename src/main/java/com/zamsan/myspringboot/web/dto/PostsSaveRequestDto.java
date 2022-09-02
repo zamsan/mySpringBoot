@@ -1,11 +1,9 @@
-package com.zamsan.myspringboot.controller.dto;
+package com.zamsan.myspringboot.web.dto;
 
 import com.zamsan.myspringboot.domain.posts.Posts;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-
-import javax.persistence.GeneratedValue;
 
 @Getter
 @NoArgsConstructor

@@ -1,6 +1,5 @@
-package com.zamsan.myspringboot.controller.dto;
+package com.zamsan.myspringboot.web.dto;
 
-import com.zamsan.myspringboot.controller.dto.HelloResponseDto;
 import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;

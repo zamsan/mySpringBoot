@@ -1,4 +1,4 @@
-package com.zamsan.myspringboot.controller;
+package com.zamsan.myspringboot.web;
 
 import org.hamcrest.core.Is;
 import org.junit.Test;
